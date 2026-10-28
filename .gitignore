@@ -1,0 +1,41 @@
+# Visual Studio / .NET
+.vs/
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/TestResults/
+
+# NuGet
+**/packages/
+*.nupkg
+
+# Visual Studio generated files
+*.user
+*.suo
+*.rsuser
+*.pdb
+*.cache
+*.log
+*.tmp
+
+# Node.js
+node_modules/
+dist/
+out/
+coverage/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Git metadata backups
+**/.git-backup/
